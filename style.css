@@ -301,3 +301,16 @@ footer h2 {
 
     background-color: #0a0a0a
 }
+body::before {
+    content: "NOVA";
+    position: fixed;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 180px;
+    font-weight: 800;
+    letter-spacing: 20px;
+    color: rgba(255, 255, 255, 0.04);
+    z-index: -1;
+    pointer-events: none;
+}
