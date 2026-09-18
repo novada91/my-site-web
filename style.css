@@ -315,14 +315,10 @@ body::before {
     content: "";
     position: fixed;
     inset: 0;
-
-    background-image: url("Air-force.jpg");
+    background-image: url("Nike-shoes.png");
     background-size: 500px;
     background-position: center;
     background-repeat: no-repeat;
-
     z-index: 1;
     pointer-events: none;
-
-    mix-blend-mode: screen;
 }
