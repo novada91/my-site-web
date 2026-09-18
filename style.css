@@ -302,27 +302,20 @@ footer h2 {
     background-color: #0a0a0a
 }
 body {
+    margin: 0;
     background-color: #0a0a0a;
     background-image: url("logo-nova.png");
-    background-size: 500px;
+    background-size: 400px;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
-body::after {
-    content: "";
-    position: fixed;
-    inset: 0;
+.hero {
+    position: relative;
+    min-height: 100vh;
     background-image: url("air-force.jpg");
-    background-size: contain;
+    background-size: 500px;
     background-position: center;
     background-repeat: no-repeat;
-    z-index: 0;
-    pointer-events: none;
-}
-
-body > * {
-    position: relative;
-    z-index: 1;
 }
