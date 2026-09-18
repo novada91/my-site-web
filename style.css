@@ -6,9 +6,25 @@
 
 body {
     margin: 0;
-    background: #0a0a0a;
-    color: white;
-    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    background-color: #0a0a0a;
+    background-image: url("logo-nova.png");
+    background-size: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background-image: url("Nike-shoes.png");
+    background-size: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+    pointer-events: none;
+}
 }
 
 /* HEADER */
@@ -300,25 +316,4 @@ footer h2 {
 }
 
     background-color: #0a0a0a
-}
-body {
-    margin: 0;
-    min-height: 100vh;
-    background-color: #0a0a0a;
-    background-image: url("logo-nova.png");
-    background-size: 500px;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-body::before {
-    content: "";
-    position: fixed;
-    inset: 0;
-    background-image: url("Nike-shoes.png");
-    background-size: 500px;
-    background-position: center;
-    background-repeat: no-repeat;
-    z-index: 1;
-    pointer-events: none;
 }
