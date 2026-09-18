@@ -301,3 +301,11 @@ footer h2 {
         width: min(280px, calc(100vw - 24px));
     }
 }
+body {
+    background-image: url("logo-nova.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 350px;
+    background-attachment: fixed;
+    background-color: #f7f7f7;
+}
