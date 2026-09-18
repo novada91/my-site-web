@@ -12,18 +12,16 @@ body {
     background-size: 500px;
     background-position: center;
     background-repeat: no-repeat;
+    color: white;
+    font-family: Arial, sans-serif;
 }
 
 body::before {
     content: "";
     position: fixed;
     inset: 0;
-    background-image: url("Nike-shoes.png");
-    background-size: 500px;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-image: none;
     z-index: 1;
-    pointer-events: none;
 }
 }
 
