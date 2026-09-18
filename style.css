@@ -18,7 +18,7 @@ body::before {
     content: "";
     position: fixed;
     inset: 0;
-    background-image: url("Nike-shoes.png");
+    background-image: none;
     background-size: 500px;
     background-position: center;
     background-repeat: no-repeat;
