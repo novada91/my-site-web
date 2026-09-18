@@ -301,16 +301,28 @@ footer h2 {
 
     background-color: #0a0a0a
 }
-body::before {
-    content: "NOVA";
+body {
+    background-color: #0a0a0a;
+    background-image: url("logo-nova.png");
+    background-size: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+body::after {
+    content: "";
     position: fixed;
-    top: 25%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 180px;
-    font-weight: 800;
-    letter-spacing: 20px;
-    color: rgba(255, 255, 255, 0.04);
-    z-index: -1;
+    inset: 0;
+    background-image: url("air-force.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 0;
     pointer-events: none;
+}
+
+body > * {
+    position: relative;
+    z-index: 1;
 }
